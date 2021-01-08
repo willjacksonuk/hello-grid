@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2021 Will Jackson <will@willjackson.uk> -->
+<component type="desktop">
+    <id>com.github.willjacksonuk.hello-grid</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Hello Grid</name>
+    <summary>An app with a grid</summary>
+    <description>
+        <p>Here's a description</p>
+    </description>
+</component>
