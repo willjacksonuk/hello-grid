@@ -7,13 +7,16 @@ public class MyApp : Gtk.Application {
     }
     
     protected override void activate () {
-        var label = new Gtk.Label (_("Hello World Again!"));
+        var grid = new Gtk.Grid ();
+        grid.orientation = Gtk.Orientation.VERTICAL;
         var main_window = new Gtk.ApplicationWindow (this) {
             default_height = 300,
             default_width = 300,
             title = "Hello World"
         };
-        main_window.add (label);
+        grid.add (new Gtk.Label (_("Label 1")));
+        grid.add (new Gtk.Label (_("Label 2")));
+        main_window.add (grid);
         main_window.show_all ();
     }
     
