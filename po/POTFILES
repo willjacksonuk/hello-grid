@@ -1,0 +1,3 @@
+src/Application.vala
+data/hello-grid.desktop.in
+data/hello-grid.appdata.xml.in
